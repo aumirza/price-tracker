@@ -1,0 +1,15 @@
+{
+  "name": "price-tracker",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "concurrently \"npm run backend\" \"npm run frontend\"",
+    "backend": "cd server && npm start",
+    "frontend": "cd client && npm start"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^7.0.0"
+  }
+}
